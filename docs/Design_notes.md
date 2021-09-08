@@ -15,7 +15,7 @@ This lays out the use cases and general design principles we use in CFMV.
 
 The pipeline structure is given in the below figure. The solid lines depict order of execution dependency, which the dashed lines depict (asynchronous) IO. Each process is run on its own computational instance, and fed by common storage instances. 
 
-![rci-fm-pipeline](https://user-images.githubusercontent.com/14807032/132547879-0a87473c-85f7-4cb5-8578-c1a86f48159b.png)
+![rci-fm-pipeline](rci-fm-pipeline.png)
 
 ## Data representation
 
